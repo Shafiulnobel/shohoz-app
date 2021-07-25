@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -93,7 +95,7 @@
           <section class="green text-center mb-5">
               <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 py-3 text-white">
+                    <div data-aos="fade-right" class="col-lg-4 py-3 text-white">
                         <h1>6.5+ Crore</h1>
                         <p>Transactions</p>
                     </div>
@@ -101,7 +103,7 @@
                         <h1>1.5+ Crore</h1>
                         <p>Bangladeshi Served</p>
                     </div>
-                    <div class="col-lg-4 py-3 text-white">
+                    <div data-aos="fade-left" class="col-lg-4 py-3 text-white">
                         <h1>50+ Lakh</h1>
                         <p>App Downloads</p>
                     </div>
@@ -118,7 +120,7 @@
                  <p class="my-3 text-center text-muted fw-normal">A one-stop shop for your everyday needs at your fingertips</p>
 
                  <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
+                    <div data-aos="fade-down-right" class="col">
                       <div class="card h-100">
                         <img src="assets/intro-1.png" class="card-img-top" alt="...">
                         
@@ -136,7 +138,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="fade-up-left" class="col">
                       <div class="card h-100">
                         <img src="assets/intro-3.png" class="card-img-top" alt="...">
                         
@@ -146,7 +148,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100">
+                      <div data-aos="fade-down-right" class="card h-100">
                         <img src="assets/intro-4.png" class="card-img-top" alt="...">
                         
                         <div class="card-footer text-center">
@@ -163,7 +165,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col">
+                    <div data-aos="fade-up-left" class="col">
                       <div class="card h-100">
                         <img src="assets/intro-6.png" class="card-img-top" alt="...">
                         
@@ -175,12 +177,53 @@
                     
                   </div>
           </section>
+
+          <section class="container my-5">
+            <h1 class="my-5 text-center">We’ve got you covered</h1>
+            <p class="my-3 text-center text-muted fw-normal">Live easy, Live stress-free, Live the Shohoz Life</p>
+
+            <div class="row text-center">
+              <div class="col-lg-4 mt-5">
+                <h5 class="text-success">Morning Breakfast</h5>
+                <img src="assets/shohoz-food.svg" alt="">
+                <p class="text-success">Shohoz Food</p>
+              </div>
+              <div class="col-lg-4 mt-5">
+                <h5 class="text-success">Rush To Work</h5>
+                <img src="assets/shohoz-ride.svg" alt="">
+                <p class="text-success">Shohoz Ride</p>
+              </div>
+              <div class="col-lg-4 mt-5">
+                <h5 class="text-success">Midday Meal</h5>
+                <img src="assets/shohoz-food2.svg" alt="">
+                <p class="text-success">Shohoz Food</p>
+              </div>
+              <div class="col-lg-4 mt-5">
+                <h5 class="text-success">Back To Home</h5>
+                <img src="assets/back-to-home1.svg" alt="">
+                <p class="text-success">Shohoz Ride</p>
+              </div>
+              <div class="col-lg-4 mt-5">
+                <h5 class="text-success">Weekend Fun</h5>
+                <img src="assets/shohoz-movie.svg" alt="">
+                <p class="text-success">Shohoz Movie</p>
+              </div>
+              <div class="col-lg-4 mt-5">
+                <h5 class="text-success">Out of City Travel</h5>
+                <img src="assets/shohoz-bus.svg" alt="">
+                <p class="text-success">Shohoz Bus</p>
+              </div>
+            </div>
+          </section>
     </main>
 
     <footer>
 
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
